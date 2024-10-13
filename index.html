@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="title">BARBORADLE</title>
+
+    <!-- Favicon Configuration -->
+    <meta name="msapplication-TileColor" content="#dcdcdc" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="styles/game.css" />
+    <link rel="stylesheet" href="styles/overlay.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" defer></script>
+
+    <script src="scripts/i18n.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/searchBar.js" defer></script>
+</head>
+
+<body>
+    <div id="main-page">
+        <header id="site-header">
+            <div id="header-container">
+                <button id="info-button" data-overlay="info-overlay" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30"><g id="_01_align_center" data-name="01 align center"><path d="M12,24A12,12,0,1,1,24,12,12.013,12.013,0,0,1,12,24ZM12,2A10,10,0,1,0,22,12,10.011,10.011,0,0,0,12,2Z"/><path d="M13,15H11v-.743a3.954,3.954,0,0,1,1.964-3.5,2,2,0,0,0,1-2.125,2.024,2.024,0,0,0-1.6-1.595A2,2,0,0,0,10,9H8a4,4,0,1,1,5.93,3.505A1.982,1.982,0,0,0,13,14.257Z"/><rect x="11" y="17" width="2" height="2"/></g></svg>
+                </button>
+                <h1 id="title" class="title barbora-red">
+                    BARBORA<span class="barbora-blue">DLE</span>
+                </h1>
+                <button id="stat-button" data-overlay="stats-overlay" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24">
+                        <path d="M20.42,8.357h-1V2.506c0-.224-.149-.421-.364-.481C14.175,.653,9.825,.653,4.944,2.024c-.215,.061-.364,.258-.364,.481v5.852h-1c-1.228,0-2.226,.996-2.226,2.221v.9c0,2.197,1.792,3.985,3.994,3.985h2.1c.36,.258,.748,.484,1.16,.671,.808,.366,1.226,1.268,.995,2.142l-.983,3.724h-2.134c-.276,0-.5,.224-.5,.5s.224,.5,.5,.5h11.027c.276,0,.5-.224,.5-.5s-.224-.5-.5-.5h-2.134l-.983-3.723c-.23-.875,.188-1.776,.995-2.143,.413-.187,.8-.413,1.16-.671h2.1c2.202,0,3.994-1.788,3.994-3.985v-.9c0-1.225-.998-2.221-2.226-2.221ZM2.354,11.479v-.9c0-.673,.55-1.221,1.226-1.221h1v.525c0,1.72,.647,3.343,1.755,4.581h-.986c-1.651,0-2.994-1.339-2.994-2.985Zm12.623,3.746c-1.252,.568-1.903,1.959-1.548,3.308l.915,3.468h-4.689l.915-3.469c.355-1.348-.296-2.738-1.548-3.307-2.092-.949-3.442-3.046-3.442-5.342V2.887c4.424-1.184,8.416-1.184,12.84,0v6.996c0,2.296-1.351,4.393-3.442,5.342Zm6.668-3.746c0,1.646-1.343,2.985-2.994,2.985h-.986c1.107-1.238,1.755-2.862,1.755-4.581v-.525h1c.676,0,1.226,.548,1.226,1.221v.9Z"/>
+                      </svg>
+                </button>
+            </div>
+        </header>
+
+        <main id="game-container">
+            <div id="share-toast" class="animate__animated hide">
+                <center data-i18n="results_copied_to_clipboard">Results copied to clipboard</center>
+            </div>
+            <div id="info-card" class="animate__animated">
+                <div id="image-container"></div>
+                <div id="product-info"></div>
+            </div>
+            <div id="game-stats"></div>
+            <div id="guesses-container">
+                <div id="warning-toast" class="animate__animated hide">
+                    <center data-i18n="invalid_guess">Invalid Guess ⚠️</center>
+                </div>
+                <div id="1" class="guess-container"></div>
+                <div id="2" class="guess-container"></div>
+                <div id="3" class="guess-container"></div>
+                <div id="4" class="guess-container"></div>
+                <div id="5" class="guess-container"></div>
+                <div id="6" class="guess-container"></div>
+                <div id="input-container" class="guess-container transparent-background">
+                    <div id="text-input-container">
+                        <input id="guess-input" type="text" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" data-type="currency"
+                            placeholder="" />
+                        <div id="input-label">€</div>
+                    </div>
+                    <div id="button-container">
+                        <button id="guess-button" class="active" data-i18n="game_submit">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+            <div id="info-overlay" class="overlay" style="display: none">
+                <div id="info-body" class="overlay-body">
+                    <div class="info-section">
+                        <h3><u data-i18n="question_the_game">The game</u></h3>
+                        <p>
+                            <span data-i18n="question_the_game_guess_start">Guess the </span><span class="barbora-red">BARBORA</span><span class="barbora-blue">DLE</span><span data-i18n="question_the_game_guess_end"> in 6 tries.</span>
+                        </p>
+                        <br />
+                        <ul style="list-style-type: square">
+                            <li data-i18n="question_the_game_ex_first">Each guess must be a valid price.</li>
+                            <li data-i18n="question_the_game_ex_second">Incorrect guesses will help guide you to the target price.</li>
+                            <li data-i18n="question_the_game_ex_third">If you guess within 1% of the target price, you win!</li>
+                        </ul>
+                        <br />
+                        <p>
+                            <span data-i18n="question_the_game_new_start">A new </span><span class="barbora-red">BARBORA</span><span class="barbora-blue">DLE</span><span data-i18n="question_the_game_new_end"> is available every day!</span>
+                        </p>
+                    </div>
+                    <div class="info-section">
+                        <h3><u data-i18n="question_the_game_examples">Examples</u></h3>
+                        <div class="guess-container transparent-background">
+                            <div class="guess-value-container animate__flipInX">10.00€</div>
+                            <div class="guess-direction-container animate__flipInX guess-far">
+                                &uarr;
+                            </div>
+                        </div>
+                        <p data-i18n="question_the_game_examples_first">
+                            First guess of 10.00€ is low by more than 25% of the target price.
+                        </p>
+                        <br />
+                        <div class="guess-container transparent-background">
+                            <div class="guess-value-container animate__flipInX">18.00€</div>
+                            <div class="guess-direction-container animate__flipInX guess-near">
+                                &darr;
+                            </div>
+                        </div>
+                        <p data-i18n="question_the_game_examples_second">
+                            Next guess of 18.00€ is too high but within 25% of the target price.
+                        </p>
+                        <br />
+                        <div class="guess-container transparent-background">
+                            <div class="guess-value-container animate__flipInX">16.00€</div>
+                            <div class="guess-direction-container animate__flipInX guess-win">
+                                &check;
+                            </div>
+                        </div>
+                        <p data-i18n="question_the_game_examples_third">
+                            The guess of 16.00€ was within 5% of the target price! You win!
+                        </p>
+                    </div>
+                    <div class="info-section info-section-small-text">
+                        <p>
+                            Suggestions? Find a bug?
+                            <a href="mailto: barboradle@gmail.com">Let me know!</a>
+                        </p>
+                    </div>
+                    <div class="info-section info-section-small-text">
+                        <p>
+                            Special thanks to
+                            <a href="https://costcodle.com/" target="_blank" noreferrer="noopener noreferrer">
+                                <span style="color: rgb(227, 42, 54)">COSTCO</span>DLE</a>
+                            and
+                            <a href="https://www.nytimes.com/games/wordle/index.html" target="_blank"
+                                noreferrer="noopener noreferrer">Wordle</a>
+                            for inspiring <span class="barbora-red">BARBORA</span><span class="barbora-blue">DLE</span>!
+                        </p>
+                        <!-- <br />
+                        <p>And thank you for checking out my game!</p> -->
+                    </div>
+                    <!-- <div class="info-section info-section-small-text">
+                        <p>
+                            If you would like to support my work, you can
+                            <a href="https://www.buymeacoffee.com/" target="_blank"
+                                noreferrer="noopener noreferrer">buy me a coffee!<span
+                                    style="font-size: 14px">☕</span></a>
+                        </p>
+                    </div> -->
+                </div>
+            </div>
+            <div id="stats-overlay" class="overlay" style="display: none">
+                <div id="stat-body" class="overlay-body">
+                    <p id="statistics-title" data-i18n="stat_title">STATISTICS</p>
+                    <div id="statistics">
+                        <div class="statistic">
+                            <div id="number-wins" class="stat"></div>
+                            <div class="descriptor" data-i18n="stat_played">Played</div>
+                        </div>
+                        <div class="statistic">
+                            <div id="win-percent" class="stat"></div>
+                            <div class="descriptor" data-i18n="stat_win">Win %</div>
+                        </div>
+                        <div class="statistic">
+                            <div id="current-streak" class="stat"></div>
+                            <div class="descriptor">
+                                <center><span data-i18n="stat_current">Current</span><br /><span data-i18n="stat_streak">Streak</span></center>
+                            </div>
+                        </div>
+                        <div class="statistic">
+                            <div id="max-streak" class="stat"></div>
+                            <div class="descriptor">
+                                <center><span data-i18n="stat_max">Max</span><br /><span data-i18n="stat_max_streak">Streak</span></center>
+                            </div>
+                        </div>
+                    </div>
+                    <p data-i18n="stat_guess_distribution">GUESS DISTRIBUTION</p>
+                    <div class="graph">
+                        <div class="graph-row">
+                            <div class="graph-label">1</div>
+                            <div id="graph-1" class="graphElem"></div>
+                        </div>
+                        <div class="graph-row">
+                            <div class="graph-label">2</div>
+                            <div id="graph-2" class="graphElem"></div>
+                        </div>
+                        <div class="graph-row">
+                            <div class="graph-label">3</div>
+                            <div id="graph-3" class="graphElem"></div>
+                        </div>
+                        <div class="graph-row">
+                            <div class="graph-label">4</div>
+                            <div id="graph-4" class="graphElem"></div>
+                        </div>
+                        <div class="graph-row">
+                            <div class="graph-label">5</div>
+                            <div id="graph-5" class="graphElem"></div>
+                        </div>
+                        <div class="graph-row">
+                            <div class="graph-label">6</div>
+                            <div id="graph-6" class="graphElem"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer id="site-footer">
+            <div id="database-link">
+                <a href="https://barbora.lt/" target="_blank" rel="noopener noreferrer">Barbora</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
