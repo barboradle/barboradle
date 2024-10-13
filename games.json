@@ -1,0 +1,157 @@
+{
+    "game-1": {
+      "name": "Vaniliniai ledai BALTIJA VANILLA su riešutais, 95 g",
+      "price": "2.49€",
+      "image": "https://cdn.barbora.lt/products/4e8c158a-5966-4996-9ca9-77df4db4b8db_m.png"
+    },
+    "game-2": {
+      "name": "Tepamasis sūris PHILADELPHIA ORIGINAL, 21,5 % rieb. s. m., 200 g",
+      "price": "2.59€",
+      "image": "https://cdn.barbora.lt/products/ffbd79fa-b3ee-47c3-b89f-82acc77e0b44_m.png"
+    },
+    "game-3": {
+      "name": "Bandelė su dešrele, 115 g",
+      "price": "0.79€",
+      "image": "https://cdn.barbora.lt/products/e1082cb0-6cff-40fb-82b1-3b040788ba59_m.png"
+    },
+    "game-4": {
+      "name": "Šokoladinis kiaušinis KINDER SURPRISE, 20 g",
+      "price": "1.39€",
+      "image": "https://cdn.barbora.lt/products/0e4532c0-8858-42f6-83f6-3ad8d077a20c_m.png"
+    },
+    "game-5": {
+      "name": "Atšaldyti kiaulienos šonkauliai WELL DONE, 1 kg",
+      "price": "5.99€",
+      "image": "https://cdn.barbora.lt/products/4b30a7a1-8239-485f-bab4-09892c8e8d68_m.png"
+    },
+    "game-6": {
+      "name": "Melionai HONEY DEW, 1 kg",
+      "price": "2.49€",
+      "image": "https://cdn.barbora.lt/products/af78450e-be25-4c91-8337-ce81eca2854a_m.png"
+    },
+    "game-7": {
+      "name": "Vienkartinės nosinaitės ZEWA SOFTIS MENTHOL, 10 x 9 vnt., 10 vnt.",
+      "price": "3.39€",
+      "image": "https://cdn.barbora.lt/products/732fbb14-f003-4616-8115-ba6af958814d_m.png"
+    },
+    "game-8": {
+      "name": "Vanilinis plombyras KLASIKA VANILLA, 65 g",
+      "price": "1.09€",
+      "image": "https://cdn.barbora.lt/products/000f9b57-4151-4a9b-8228-81a549bb44f2_m.png"
+    },
+    "game-9": {
+      "name": "RAMBYNO tepamasis sūrelis su kumpiu, 50 % rieb. s. m., 175 g",
+      "price": "1.99€",
+      "image": "https://cdn.barbora.lt/products/7f39eec9-a1ce-4445-99d3-ca24bee15a0b_m.png"
+    },
+    "game-10": {
+      "name": "Bandelės su lašinukų įdaru, 1000 g",
+      "price": "6.99€",
+      "image": "https://cdn.barbora.lt/products/a6b9e54f-667e-486f-97cd-133e075f8c8d_m.png"
+    },
+    "game-11": {
+      "name": "Šokoladinis batonėlis BOUNTY, 57 g",
+      "price": "1.19€",
+      "image": "https://cdn.barbora.lt/products/386b5cd3-07c1-43a0-8764-b329014e22ad_m.png"
+    },
+    "game-12": {
+      "name": "Kiaulienos nugarinės pjausniai be kaulo BIOVELA, 320 g",
+      "price": "3.79€",
+      "image": "https://cdn.barbora.lt/products/107d86e0-8206-4bc9-a66c-661ef5bd5fe6_m.png"
+    },
+    "game-13": {
+      "name": "Kriaušės CONFERENCE didžiosios, nuo 70 mm, 1 kg",
+      "price": "2.49€",
+      "image": "https://cdn.barbora.lt/products/34f5c4d1-4936-43c7-b7dd-b2bd9f796f7f_m.png"
+    },
+    "game-14": {
+      "name": "Popierinės nosinaitės GRITE BLOSSOM, 10 vnt.",
+      "price": "0.19€",
+      "image": "https://cdn.barbora.lt/products/999b4b7e-f8a2-43b7-8abb-27acd37eef9d_m.png"
+    },
+    "game-15": {
+      "name": "Glaistytas vanilinis plombyras NYKŠTUKAS su migdolais, 63 g",
+      "price": "1.09€",
+      "image": "https://cdn.barbora.lt/products/e7de13b7-988a-43de-b033-b62515f96a1c_m.png"
+    },
+    "game-16": {
+      "name": "Plėšomosios sūrio lazdelės PIK-NIK, 40 % rieb. s. m., 140 g",
+      "price": "2.69€",
+      "image": "https://cdn.barbora.lt/products/8c933cc4-13dd-43b3-9e4f-e54ce1b0667d_m.png"
+    },
+    "game-17": {
+      "name": "Bandelė su troškintų kopūstų ir pievagrybų įdaru, 0.07 kg",
+      "price": "0.69€",
+      "image": "https://cdn.barbora.lt/products/b5f5dde6-9116-4ff9-bae3-7fe3b0a34eaf_m.png"
+    },
+    "game-18": {
+      "name": "Kramtomoji guma ORBIT WINTERFRESH, 14 g",
+      "price": "0.72€",
+      "image": "https://cdn.barbora.lt/products/2640f497-c98e-48a7-8b6e-23f50f4d8af1_m.png"
+    },
+    "game-19": {
+      "name": "Smulkinta jautiena WELL DONE, rieb. ne did. nei 15 %, 400 g",
+      "price": "2.79€",
+      "image": "https://cdn.barbora.lt/products/2463e438-7a06-4bcd-b162-3f1dd007279b_m.png"
+    },
+    "game-20": {
+      "name": "Obuoliai GRANNY SMITH, 70-85 mm, 1 kg",
+      "price": "2.59€",
+      "image": "https://cdn.barbora.lt/products/e1845552-0cc8-4740-9d5c-3de78b47bcd1_m.png"
+    },
+    "game-21": {
+      "name": "Tualetinis popierius GRITE FAMILY (3 sluoksnių), 4 vnt.",
+      "price": "1.79€",
+      "image": "https://cdn.barbora.lt/products/fa0a411f-6ef9-415d-8799-54db178bfe0c_m.png"
+    },
+    "game-22": {
+      "name": "Klasikiniai grietininiai ledai POLS, 75 g",
+      "price": "1.39€",
+      "image": "https://cdn.barbora.lt/products/1703b2f3-aa69-4310-9d33-e0adc6298f58_m.png"
+    },
+    "game-23": {
+      "name": "Ožkų pieno sūris CHAVROUX, 38 % rieb. s. m., 150 g",
+      "price": "3.99€",
+      "image": "https://cdn.barbora.lt/products/26b41d15-6ae2-4234-b83c-068450aa9318_m.png"
+    },
+    "game-24": {
+      "name": "VBandelė su grybų įdaru, 65 g",
+      "price": "0.69€",
+      "image": "https://cdn.barbora.lt/products/0c7faee0-d187-46ff-801e-71846858b074_m.png"
+    },
+    "game-25": {
+      "name": "Pastilės MYNTHON, 34 g",
+      "price": "0.85€",
+      "image": "https://cdn.barbora.lt/products/497d9935-f9d8-4a0d-ba6b-f0a96bf0a7ba_m.png"
+    },
+    "game-26": {
+      "name": "Kiaulienos faršas, rieb. ne daugiau 20 %, fasuotas, 400 g",
+      "price": "1.49€",
+      "image": "https://cdn.barbora.lt/products/ff30f890-68bd-416c-89c1-3a8abc9158ac_m.png"
+    },
+    "game-27": {
+      "name": "Lietuviški obuoliai LINKĖJIMAI IŠ KAIMO, nuo 55 mm, 1 kg",
+      "price": "1.29€",
+      "image": "https://cdn.barbora.lt/products/e754c6b0-2498-45a5-8a0a-931a58ff4d6c_m.png"
+    },
+    "game-28": {
+      "name": "Tualetinis popierius ZEWA DELUXE CAMOMILE (3 sluoksnių), 8 vnt.",
+      "price": "6.49€",
+      "image": "https://cdn.barbora.lt/products/6597d27d-b3ad-4df1-adf9-3051de074723_m.png"
+    },
+    "game-29": {
+      "name": "Valgomieji ledai MAGNUM su migdolais, 83 g",
+      "price": "2.79€",
+      "image": "https://cdn.barbora.lt/products/86277c40-d7f0-4981-b73e-bbb0792cfb32_m.png"
+    },
+    "game-30": {
+      "name": "Tarkuotas kietasis sūris DŽIUGAS, 40 % rieb. s. m., 100 g",
+      "price": "1.99€",
+      "image": "https://cdn.barbora.lt/products/135f4497-acd5-496c-a473-6522291efca6_m.png"
+    },
+    "game-31": {
+      "name": "Burekas su špinatais ir feta, 85 g",
+      "price": "0.69€",
+      "image": "https://cdn.barbora.lt/products/726395a3-a9cd-406e-9454-5a202f59f787_m.png"
+    }
+}
