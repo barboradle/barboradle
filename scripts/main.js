@@ -271,12 +271,12 @@ function copyStats() {
         .share({
           title: "BARBORADLE",
           text: output,
-          url: "a link to the game",
+          url: "https://barboradle.github.io/barboradle/",
         })
         .catch((error) => console.error("Share failed:", error));
     }
   } else {
-    output += `a link to the game`;
+    output += `https://barboradle.github.io/barboradle/`;
     navigator.clipboard.writeText(output);
     displayToast();
   }
