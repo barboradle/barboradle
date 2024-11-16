@@ -76,6 +76,9 @@ function fetchGameData(gameNumber) {
       return response.json();
     })
     .then((json) => {
+      while (json[`game-${gameNumber}`] == null) {
+        gameNumber = gameNumber - 30
+      }
       productName = json[`game-${gameNumber}`].name;
       productPrice = json[`game-${gameNumber}`].price;
       productPrice = Number(productPrice.slice(0, productPrice.length - 1));
