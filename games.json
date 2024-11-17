@@ -338,5 +338,225 @@
       "name": "Pailgos saldžiosios paprikos WELL DONE, 250 g",
       "price": "2.19€",
       "image": "https://cdn.barbora.lt/products/4465fdd5-86a9-4a86-90c9-4e975af3a573_m.png"
+    },
+    "game-69":{
+      "name": "Kiaušiniai, M, 10 vnt., 10 vnt.",
+      "price": "1.59€",
+      "image": "https://cdn.barbora.lt/products/e58ab507-bc6c-4a98-9241-ec1286d78f15_m.png"
+    },
+    "game-70":{
+      "name": "UAT pienas FARM MILK, 3,2% rieb., 1 l",
+      "price": "0.99€",
+      "image": "https://cdn.barbora.lt/products/3cfc2270-a237-445c-928a-f5b38b09b3ff_m.png"
+    },
+    "game-71":{
+      "name": "Grietinė FARM MILK, 30 % rieb., 400 g",
+      "price": "1.27€",
+      "image": "https://cdn.barbora.lt/products/f97b5c02-61b7-48cc-a3cb-f90e17c33f70_m.png"
+    },
+    "game-72":{
+      "name": "Sviestas FARM MILK, 82 % rieb., 180 g",
+      "price": "1.39€",
+      "image": "https://cdn.barbora.lt/products/e7a895ed-a5fd-482c-aac8-0157ab476ee9_m.png"
+    },
+    "game-73":{
+      "name": "Ant kraiko laikomų vištų kiaušiniai RIDO, 10 vnt.",
+      "price": "2.65€",
+      "image": "https://cdn.barbora.lt/products/44ae2733-678c-48de-b006-5ce21b8303e8_m.png"
+    },
+    "game-74":{
+      "name": "ROKIŠKIO NAMINIS sviestas, 82 % rieb., 180 g",
+      "price": "2.69€",
+      "image": "https://cdn.barbora.lt/products/522456ec-7d8e-4e83-8e5c-954f3e85e0f9_m.png"
+    },
+    "game-75":{
+      "name": "Fermentinis DVARO sūris, 50 % rieb. s. m., 240 g",
+      "price": "2.99€",
+      "image": "https://cdn.barbora.lt/products/6192b5e1-9bec-45e4-8585-973aa04f14bb_m.png"
+    },
+    "game-76":{
+      "name": "UAT grietinėlė FARM MILK, 30 % rieb., 200 ml",
+      "price": "0.99€",
+      "image": "https://cdn.barbora.lt/products/be754258-e59d-42b1-9d5f-39dcc52f273c_m.png"
+    },
+    "game-77":{
+      "name": "Pienas FARM MILK, 3,2% rieb., 1 l",
+      "price": "0.99€",
+      "image": "https://cdn.barbora.lt/products/b923684e-0610-4494-b75f-8fc689875583_m.png"
+    },
+    "game-78":{
+      "name": "DVARO grietinė, 30 % rieb., 380 g",
+      "price": "2.85€",
+      "image": "https://cdn.barbora.lt/products/70836677-20b7-4eb0-9b0f-34ed8016e069_m.png"
+    },
+    "game-79":{
+      "name": "Saldžios grietinėlės ŽEMAITIJOS sviestas, 82 % rieb., 200 g",
+      "price": "2.79€",
+      "image": "https://cdn.barbora.lt/products/7804cbab-4886-4694-b4f2-6ef04a80957d_m.png"
+    },
+    "game-80":{
+      "name": "Pusriebė varškė FARM MILK, 9 % rieb., 180 g",
+      "price": "0.71€",
+      "image": "https://cdn.barbora.lt/products/c8d5026c-01d5-40b8-a56d-b1f3856d0a5e_m.png"
+    },
+    "game-81":{
+      "name": "Kiaušiniai RIDO Omega 3, 10 vnt.",
+      "price": "2.65€",
+      "image": "https://cdn.barbora.lt/products/ec7a0bb4-e781-4878-8eb0-e0a905a47322_m.png"
+    },
+    "game-82":{
+      "name": "ROKIŠKIO sviestas, 82 % rieb., 200 g",
+      "price": "2.79€",
+      "image": "https://cdn.barbora.lt/products/fa932015-2954-4278-9750-eb1fbd430598_m.png"
+    },
+    "game-83":{
+      "name": "Fermentinis ROKIŠKIO sūris, 45 % rieb. s. m., 240 g",
+      "price": "2.59€",
+      "image": "https://cdn.barbora.lt/products/42e03015-0f57-4424-b6f0-b21eea955409_m.png"
+    },
+    "game-84":{
+      "name": "Pienas DVARO, 2,5 % rieb., 1 l",
+      "price": "1.55€",
+      "image": "https://cdn.barbora.lt/products/6dc50b1e-4336-415c-9fce-f4d72a15bf86_m.png"
+    },
+    "game-85":{
+      "name": "Natūralus DVARO pienas, 3,5 % rieb., 2 l",
+      "price": "2.99€",
+      "image": "https://cdn.barbora.lt/products/f5a1e731-91fc-4dc0-881b-715a8d57a5f5_m.png"
+    },
+    "game-86":{
+      "name": "Sviestas WELL DONE, 82 % rieb., 170 g",
+      "price": "1.99€",
+      "image": "https://cdn.barbora.lt/products/fcd7ce16-6205-40a9-966b-54c2907774b9_m.png"
+    },
+    "game-87":{
+      "name": "Glaistytas sūrelis MAGIJA su vanile, 24 % rieb., 45 g",
+      "price": "0.65€",
+      "image": "https://cdn.barbora.lt/products/50de47d7-0f6b-40ee-92c4-92e9dcddd8eb_m.png"
+    },
+    "game-88":{
+      "name": "Grūdėtoji varškė PIENO ŽVAIGŽDĖS, 7 % rieb., 200 g",
+      "price": "1.69€",
+      "image": "https://cdn.barbora.lt/products/201fba12-e5cc-47b8-ad95-7580e2a0bc1e_m.png"
+    },
+    "game-89":{
+      "name": "UAT pienas be laktozės WELL DONE, 3,2 % rieb., 1 l",
+      "price": "1.25€",
+      "image": "https://cdn.barbora.lt/products/62e2b46e-3f44-42fe-a6d1-6301584780b0_m.png"
+    },
+    "game-90":{
+      "name": "DVARO pienas, 2 l, 2,5 % rieb., 2 l",
+      "price": "2.79€",
+      "image": "https://cdn.barbora.lt/products/10590c7f-fd21-4779-8c1a-1cef5bbb685a_m.png"
+    },
+    "game-91":{
+      "name": "Plėšomosios sūrio lazdelės PIK-NIK, 40 % rieb. s. m., 280 g",
+      "price": "4.99€",
+      "image": "https://cdn.barbora.lt/products/a8e49fa1-20d9-4338-b128-e47018281177_m.png"
+    },
+    "game-92":{
+      "name": "Natūralus DVARO pienas, 3,5 % rieb., 1 l",
+      "price": "1.65€",
+      "image": "https://cdn.barbora.lt/products/ed6cc121-041e-4f5e-b036-8cdfd8a4733e_m.png"
+    },
+    "game-93":{
+      "name": "UAT grietinėlė FARM MILK, 10 % rieb., 500 ml",
+      "price": "1.09€",
+      "image": "https://cdn.barbora.lt/products/0b1ee3b3-d055-43dc-b08b-ccde1e474e89_m.png"
+    },
+    "game-94":{
+      "name": "Mocarelos sūris sūryme FARM MILK, 45%, 200 g",
+      "price": "0.89€",
+      "image": "https://cdn.barbora.lt/products/d8566b11-eb87-431f-b41f-1603681f6bf9_m.png"
+    },
+    "game-95":{
+      "name": "Puskietis fermentinis DVARO sūris (riekelės), 50 % rieb.s.m., 150 g",
+      "price": "2.19€",
+      "image": "https://cdn.barbora.lt/products/225684ab-5936-4947-ad50-eae8eb9fb9bd_m.png"
+    },
+    "game-96":{
+      "name": "Tilžės sūris FARM MILK, 45 % rieb. s. m., 250 g",
+      "price": "1.59€",
+      "image": "https://cdn.barbora.lt/products/e318c155-c2cd-4634-8d0d-8891f958ec66_m.png"
+    },
+    "game-97":{
+      "name": "ROKIŠKIO NAMINĖ grietinė, 30 % rieb., 400 g",
+      "price": "2.89€",
+      "image": "https://cdn.barbora.lt/products/f9d51510-853c-437c-8a38-cd1b1248bd31_m.png"
+    },
+    "game-98":{
+      "name": "DVARO kefyras, 3,2 % rieb., 900 g",
+      "price": "1.65€",
+      "image": "https://cdn.barbora.lt/products/8b4b1435-0d45-4c77-9620-bf1ab5ca9983_m.png"
+    },
+    "game-99":{
+      "name": "Kefyras FARM MILK, 2 % rieb., 1 kg",
+      "price": "0.89€",
+      "image": "https://cdn.barbora.lt/products/026ce826-143e-42f2-89d6-b3205c4f9416_m.png"
+    },
+    "game-100":{
+      "name": "Varškės sūrelis MAGIJA su kakav. ir šok. sk. gab., 24% rieb., 45 g",
+      "price": "0.65€",
+      "image": "https://cdn.barbora.lt/products/32f20f27-9995-4b0f-9646-2e21dccfc53d_m.png"
+    },
+    "game-101":{
+      "name": "Ant kraiko laikomų vištų kiaušiniai, L dydžio, 10 vnt.",
+      "price": "2.69€",
+      "image": "https://cdn.barbora.lt/products/b3c9342e-39d7-4e7b-b1a9-f17297d6ea63_m.png"
+    },
+    "game-102":{
+      "name": "Pusriebė varškė FARM MILK, 8 % rieb., 250 g",
+      "price": "1.05€",
+      "image": "https://cdn.barbora.lt/products/f3b69b4d-aa70-4227-a12f-f147ec3d77cc_m.png"
+    },
+    "game-103":{
+      "name": "UAT pienas FARM MILK, 2 % rieb., 1 l",
+      "price": "0.95€",
+      "image": "https://cdn.barbora.lt/products/0e6e2845-485a-4c9d-96f2-98e599a919f1_m.png"
+    },
+    "game-104":{
+      "name": "Glaistytas varškės sūrelis KARUMS su vanilinu, 22,5 % rieb., 45 g",
+      "price": "0.65€",
+      "image": "https://cdn.barbora.lt/products/955cc39e-11b2-466d-98c9-55cf7aea569d_m.png"
+    },
+    "game-105":{
+      "name": "Tepamasis sūris PHILADELPHIA ORIGINAL, 21,5 % rieb. s. m., 200 g",
+      "price": "2.59€",
+      "image": "https://cdn.barbora.lt/products/ffbd79fa-b3ee-47c3-b89f-82acc77e0b44_m.png"
+    },
+    "game-106":{
+      "name": "Pusriebė VILKYŠKIŲ varškė, 9 % rieb., 180 g",
+      "price": "1.19€",
+      "image": "https://cdn.barbora.lt/products/c7c600c4-2f89-4cb4-871b-459586f425ed_m.png"
+    },
+    "game-107":{
+      "name": "Ant kraiko laikomų vištų kiaušiniai, 10 vnt.",
+      "price": "1.99€",
+      "image": "https://cdn.barbora.lt/products/7a442559-0a9a-4faf-b69e-02c1d5a44e07_m.png"
+    },
+    "game-108":{
+      "name": "Valgomasis graikiškas jogurtas ALMA, 4 % rieb., 370 g",
+      "price": "1.79€",
+      "image": "https://cdn.barbora.lt/products/e460b71a-a692-4fe5-8749-935208ecf530_m.png"
+    },
+    "game-109":{
+      "name": "VILKYŠKIŲ kefyras, 2,5 % rieb., 1 kg",
+      "price": "1.85€",
+      "image": "https://cdn.barbora.lt/products/de5ff830-5b16-49ce-8c62-c9d8a3975553_m.png"
+    },
+    "game-110":{
+      "name": "Glaistytas sūrelis MAGIJA su želės gabaliukais, 20 % rieb., 45 g",
+      "price": "0.65€",
+      "image": "https://cdn.barbora.lt/products/4dd9138c-63a7-44d3-b39b-cec0f4bb3be6_m.png"
+    },
+    "game-111":{
+      "name": "Plėšomosios sūrio lazdelės PIK-NIK, 40 % rieb. s. m., 160 g",
+      "price": "2.99€",
+      "image": "https://cdn.barbora.lt/products/cb83d037-410a-486e-974f-81864ff0420b_m.png"
+    },
+    "game-112":{
+      "name": "Gl. varškės sūrelis NYKŠTUKAS su sutiršt. pienu, 21 % rieb., 45 g",
+      "price": "0.65€",
+      "image": "https://cdn.barbora.lt/products/2005d997-576c-401f-bd08-66464aecf588_m.png"
     }
 }
