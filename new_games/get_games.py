@@ -17,7 +17,7 @@ with sync_playwright() as p:
     stuff = page.locator("#category-page-results-placeholder > div > ul").locator("li").all()
     index = 0
 
-    start_nr = 83
+    start_nr = 32
 
     while index < len(stuff):
         try:
@@ -39,9 +39,9 @@ with sync_playwright() as p:
             print(f"      \"price\": \"{price}\",")
             print(f"      \"image\": \"{image.replace("_s", "_m")}\"")
             print(f"    }},")
+            start_nr = start_nr + 1
         except playwright._impl._errors.TimeoutError:
             pass
         index = index + 1
-        start_nr = start_nr + 1
-
+        
     browser.close()
